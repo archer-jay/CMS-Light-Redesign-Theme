@@ -290,16 +290,16 @@ body>.ember-view {
     background-color: #bf616a;
 }
 
-.btn,
-.btn-large,
+.ember-application .btn,
+.ember-application .btn-large,
 #side-nav-secondary ul .close-nav i,
 #side-nav-secondary ul.side-nav .preview-button a.btn {
     background-color: #3b4252;
     transition: all .2s ease-out;
 }
 
-.btn-large:hover,
-.btn:hover,
+.ember-application .btn-large:hover,
+.ember-application .btn:hover,
 #side-nav-secondary ul .close-nav i:hover,
 #side-nav-secondary ul.side-nav .preview-button a.btn:hover {
     background-color: #4c566a;
