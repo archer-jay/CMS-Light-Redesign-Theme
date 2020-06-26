@@ -15,6 +15,10 @@
     color: #2e3440;
 }
 
+.client-website-page #preview iframe {
+    background-color: #ffffff;
+}
+
 #g5-global-header.g5-header .g5-header-title>a {
     line-height: 40px;
 }
@@ -645,7 +649,8 @@ body.ember-application.auth-disabled.client-websites .navbar-fixed {
 }
 
 @media only screen and (min-width: 601px) {
-    nav,
+    .client-website-index nav,
+    .client-website-page nav,
     nav .nav-wrapper i,
     nav a.button-collapse,
     nav a.button-collapse i {
