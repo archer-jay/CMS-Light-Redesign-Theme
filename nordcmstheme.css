@@ -168,7 +168,7 @@ ul.collapsible.ember-view:nth-child(1):not(li.website-services>ul.collapsible.em
 
 div.nav-wrapper a,
 ul.breadcrumb a {
-    color: #627b9a!important;
+    color: #546271!important;
 }
 
 .switch label input[type=checkbox]:checked+.lever {
@@ -185,7 +185,7 @@ ul.breadcrumb a {
 }
 
 .client-websites .is-staging {
-    color: #81a1c1;
+    color: #546271;
 }
 
 .client-websites .is-staging .title-container {
@@ -263,6 +263,11 @@ ul.locations .copy-to-staging-btn {
 .btn.confirm,
 .confirm.btn-large {
     background-color: #8fbcbb !important;
+}
+
+.btn.confirm.publish-button,
+.btn.confirm.deploy-all {
+    background-color: #0BADB0 !important;
 }
 
 .status-pending .chip i {
