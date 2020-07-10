@@ -658,7 +658,13 @@ body.ember-application.auth-disabled.client-websites .navbar-fixed {
     .client-website-page nav,
     nav .nav-wrapper i,
     nav a.button-collapse,
-    nav a.button-collapse i {
+    nav a.button-collapse i,
+    .client-website-assets nav,
+    .client-website-themes nav,
+    .client-website-seos nav,
+    .client-website-redirects nav,
+    .client-website-saves nav,
+    .client-websites nav {
         height: 30px;
         line-height: 30px;
     }
@@ -821,7 +827,7 @@ img.asset-thumbnail {
 @media only screen and (min-width: 993px) {
     .client-website-page #toast-container,
     .client-website-index #toast-container {
-        top: 96px;
+        top: 145px;
         right: 1%;
         max-width: 475px;
         width: 25%;
@@ -849,7 +855,7 @@ img.asset-thumbnail {
     right: 0px;
     position: absolute;
     text-decoration: none;
-    width: 100%;
+    width: 475px;
     border-radius: 2px;
     height: 100%;
     z-index: 1;
