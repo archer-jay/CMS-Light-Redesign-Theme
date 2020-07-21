@@ -865,10 +865,6 @@ img.asset-thumbnail {
     display: none;
 }
 
-div[data-tooltip="Staging Websites are always in Pending Status"] {
-    display: none;
-}
-
 #side-nav.hovering .side-nav a.active,
 #side-nav.hovering .side-nav li.website-services a.active {
     background-color: #88c0d0;
