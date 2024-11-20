@@ -1,2 +1,2 @@
-# CMS-Nord-Theme
-Nord-centric theme for the g5 CMS
+# CMS-Light-Theme
+Lightly colored theme refresh for the Realpage:G5 CMS
